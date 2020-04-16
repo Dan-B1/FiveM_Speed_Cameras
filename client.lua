@@ -82,7 +82,7 @@ Citizen.CreateThread(function()
 												})
 												TriggerServerEvent('esx_billing:sendBill', playerID, 'society_police', 'Speeding ' .. speedKM .. ' KM/H in a '..maxSpeed..' KM/H Zone', (perOver*100)+cameraFineAdd)
 												alertAlready = true
-												Citizen.Wait(6000)
+												Citizen.Wait(10000)
 											end
 										end
 									end
